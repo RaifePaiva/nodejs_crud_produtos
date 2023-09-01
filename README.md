@@ -30,7 +30,7 @@ A API acesso a um banco de dados em memória usando o SQLite3, portanto ao execu
 
 ## Base URL
 
-A URL base para a API é: `http://seu-dominio.com`
+A URL base para a API é: `[http://seu-dominio.com](https://products-puc-mg-d92330073a3f.herokuapp.com/)`
 
 ## Endpoints
 
@@ -102,7 +102,7 @@ Exclui um produto com base no ID fornecido.
 
 ```http
 GET /produtos HTTP/1.1
-Host: seu-dominio.com
+Host: [seu-dominio.com](https://products-puc-mg-d92330073a3f.herokuapp.com/)
 http
 Copy code
 HTTP/1.1 200 OK
