@@ -6,6 +6,28 @@ Api restfull para estudo de caso envolvendo o framework javascript Node.js
 
 A API permite que você gerencie produtos, realizando operações como listar, adicionar, atualizar e excluir produtos.
 
+## Antes de começar
+Ao clonar api para sua máquina local, para executar basta precisará baixar as dependencias necessárias: 
+
+```bash
+
+C:\Users\Usuario\meu_projeto> npm install
+
+````
+
+Após isso, basta executar o seguinte comando e sua api irá funcionar...
+
+```bash
+
+C:\Users\Usuario\meu_projeto> node app.js
+
+```
+
+
+## Observações
+
+A API acesso a um banco de dados em memória usando o SQLite3, portanto ao executar a aplicação, ele subirá com uma instancia do banco, basta visualizar com seu plugin (escolha do dev)
+
 ## Base URL
 
 A URL base para a API é: `http://seu-dominio.com`
