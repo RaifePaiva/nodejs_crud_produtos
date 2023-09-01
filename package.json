@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node ./app.js"
   },
+  "engines": {
+    "node": "18.12.1"
+  },
   "author": "Raífe Ferreira",
   "license": "ISC",
   "dependencies": {
