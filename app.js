@@ -101,7 +101,7 @@ app.post('/produtos', (req, res) => {
         return res.status(404).json({ error: 'Produto não encontrado!' });
       }
   
-      res.json({ message: 'Produto deletado com sucesso!' });
+      res.status(204).json({ message: 'Produto deletado com sucesso!' });
     });
   });
 
